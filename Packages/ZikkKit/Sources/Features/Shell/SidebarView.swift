@@ -57,6 +57,8 @@ struct CollectionsSidebar: View {
     @State private var renamingNode: CollectionNode?
     @State private var search: String
     @State private var expansion = TreeExpansion()
+    /// Highlighted row (collection or node id), kept in sync with the selected tab like Finder's selection.
+    @State private var selection: UUID?
 
     init(workspace: Workspace, search: String = "") {
         self.workspace = workspace
@@ -71,12 +73,14 @@ struct CollectionsSidebar: View {
 
     var body: some View {
         let searchResult = CollectionSearch(query: search, collections: collections)
-        List {
+        List(selection: $selection) {
             ForEach(collections.filter(searchResult.isVisible)) { collection in
                 DisclosureGroup(isExpanded: expansionBinding(collection.id, searchResult)) {
                     NodeTreeRows(nodes: collection.rootNodes.filter(searchResult.isVisible), search: searchResult,
                                  isExpanded: { expansionBinding($0, searchResult) }) { node in
-                        NodeRow(node: node, highlight: searchResult.isActive ? search : "")
+                        NodeRow(node: node, highlight: searchResult.isActive ? search : "",
+                                onDoubleClick: node.isFolder ? { toggleExpansion(node.id, searchResult) } : nil)
+                            .tag(node.id)
                             .contextMenu { nodeMenu(node, collection: collection) }
                             .draggable(node.id.uuidString)
                             .dropDestination(for: String.self) { ids, _ in
@@ -92,7 +96,9 @@ struct CollectionsSidebar: View {
                         Image(systemName: "shippingbox")
                     }
                     .contentShape(.rect)
-                    .onTapGesture(count: 2) { model.open(.collection(collection.id), title: collection.name) }
+                    // Simultaneous so the click still selects the row.
+                    .simultaneousGesture(TapGesture(count: 2).onEnded { toggleExpansion(collection.id, searchResult) })
+                    .tag(collection.id)
                     .contextMenu { collectionMenu(collection) }
                     .dropDestination(for: String.self) { ids, _ in
                         guard let dragged = draggedNode(ids) else { return false }
@@ -103,6 +109,8 @@ struct CollectionsSidebar: View {
             }
         }
         .onChange(of: search) { expansion.searchChanged() }
+        .onChange(of: model.selectedTabID, initial: true) { syncSelectionWithTab() }
+        .onKeyPress(.return) { openSelection() }
         .overlay {
             if searchResult.isActive, searchResult.visibleCollections.isEmpty, !collections.isEmpty {
                 ContentUnavailableView.search(text: search)
@@ -136,6 +144,33 @@ struct CollectionsSidebar: View {
         }
     }
 
+    /// Highlights (and reveals) the sidebar row of the selected tab; tabs that are not in the tree (drafts, specs, …) clear it.
+    private func syncSelectionWithTab() {
+        guard let tab = model.selectedTab else { selection = nil; return }
+        switch tab.content {
+        case .collection(let id):
+            selection = id
+        default:
+            selection = tab.nodeID
+            if let id = tab.nodeID, let node = CollectionQueries.node(id, in: context), let collection = node.collection {
+                expansion.reveal([collection.id] + node.ancestors.map(\.id))
+            }
+        }
+    }
+
+    /// Return opens the selected row, like a click.
+    private func openSelection() -> KeyPress.Result {
+        guard let selection else { return .ignored }
+        if let node = CollectionQueries.node(selection, in: context) {
+            NodeRow.open(node, model: model)
+        } else if let collection = collections.first(where: { $0.id == selection }) {
+            model.open(.collection(collection.id), title: collection.name)
+        } else {
+            return .ignored
+        }
+        return .handled
+    }
+
     private func draggedNode(_ ids: [String]) -> CollectionNode? {
         ids.first.flatMap(UUID.init(uuidString:)).flatMap { CollectionQueries.node($0, in: context) }
     }
@@ -145,6 +180,13 @@ struct CollectionsSidebar: View {
             expansion.isExpanded(id, search: search)
         } set: { expanded in
             expansion.set(id, expanded: expanded, search: search)
+        }
+    }
+
+    /// Double-clicking a collection or folder expands/collapses it, like Finder's outline view.
+    private func toggleExpansion(_ id: UUID, _ search: CollectionSearch) {
+        withAnimation(.snappy(duration: 0.2)) {
+            expansion.set(id, expanded: !expansion.isExpanded(id, search: search), search: search)
         }
     }
 
@@ -214,6 +256,8 @@ struct NodeRow: View {
     let node: CollectionNode
     /// Search text to emphasize in the name.
     var highlight = ""
+    /// Folders: expand/collapse on double-click (the single click still opens the folder).
+    var onDoubleClick: (() -> Void)?
 
     var body: some View {
         HStack(spacing: 6) {
@@ -233,12 +277,16 @@ struct NodeRow: View {
             Spacer(minLength: 0)
         }
         .contentShape(.rect)
-        .onTapGesture {
-            if node.isFolder {
-                model.open(.folder(node.id), title: node.name)
-            } else {
-                model.openRequest(node)
-            }
+        // Simultaneous so the list still selects (highlights) the row on click.
+        .simultaneousGesture(TapGesture().onEnded { Self.open(node, model: model) })
+        .simultaneousGesture(TapGesture(count: 2).onEnded { onDoubleClick?() }, isEnabled: onDoubleClick != nil)
+    }
+
+    static func open(_ node: CollectionNode, model: AppModel) {
+        if node.isFolder {
+            model.open(.folder(node.id), title: node.name)
+        } else {
+            model.openRequest(node)
         }
     }
 }

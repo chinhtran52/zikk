@@ -1909,6 +1909,18 @@
         }
       }
     },
+    "Hide Sidebar": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ẩn thanh bên"
+          }
+        }
+      }
+    },
     "History": {
       "extractionState": "manual",
       "generatesSymbol": false,
@@ -2757,6 +2769,30 @@
           "stringUnit": {
             "state": "translated",
             "value": "Không tìm thấy"
+          }
+        }
+      }
+    },
+    "Notes": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghi chú"
+          }
+        }
+      }
+    },
+    "Notes about this field, e.g. what it is for or which values are allowed": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghi chú về field này, ví dụ dùng để làm gì hoặc nhận những giá trị nào"
           }
         }
       }
@@ -4321,6 +4357,18 @@
         }
       }
     },
+    "Show Sidebar": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện thanh bên"
+          }
+        }
+      }
+    },
     "Show code snippet": {
       "extractionState": "manual",
       "generatesSymbol": false,
@@ -4737,6 +4785,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Timeout (ms, 0 = mặc định)"
+          }
+        }
+      }
+    },
+    "Toggle Sidebar": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật/tắt thanh bên"
           }
         }
       }

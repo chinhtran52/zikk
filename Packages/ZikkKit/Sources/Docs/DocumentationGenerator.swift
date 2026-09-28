@@ -108,9 +108,12 @@ public struct DocumentationGenerator {
         case .urlEncoded:
             html += table("Body (x-www-form-urlencoded)", spec.body.urlEncoded)
         case .formData:
-            html += "<h3>Body (form-data)</h3><table><tr><th>Key</th><th>Type</th><th>Value</th></tr>"
-            for field in spec.body.formData where !field.key.isEmpty {
-                html += "<tr class=\"\(field.isEnabled ? "" : "disabled")\"><td><code>\(HTML.escape(field.key))</code></td><td>\(field.kind.rawValue)</td><td class=\"mono\">\(HTML.escape(field.kind == .file ? (field.file?.fileName ?? "") : field.value))</td></tr>"
+            let fields = spec.body.formData.filter { !$0.key.isEmpty }
+            let showsNotes = fields.contains { !$0.notes.isEmpty }
+            html += "<h3>Body (form-data)</h3><table><tr><th>Key</th><th>Type</th><th>Value</th>\(showsNotes ? "<th>Notes</th>" : "")</tr>"
+            for field in fields {
+                html += "<tr class=\"\(field.isEnabled ? "" : "disabled")\"><td><code>\(HTML.escape(field.key))</code></td><td>\(field.kind.rawValue)</td><td class=\"mono\">\(HTML.escape(field.kind == .file ? (field.file?.fileName ?? "") : field.value))</td>"
+                    + (showsNotes ? "<td>\(HTML.escape(field.notes))</td>" : "") + "</tr>"
             }
             html += "</table>"
         case .binary:

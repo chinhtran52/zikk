@@ -222,3 +222,14 @@ func fixture(_ name: String, _ ext: String) throws -> String {
         #expect(merged.testScript == "pm.test('keep')")
     }
 }
+
+@Suite struct OpenAPIFormDataNotesTests {
+    @Test func formDataNotesBecomePropertyDescriptions() throws {
+        let body = RequestBody(mode: .formData, formData: [FormDataField(key: "utters", value: "hi", notes: "One utterance per line"),
+                                                            FormDataField(key: "file", kind: .file, notes: "CSV export")])
+        let collection = InteropCollection(name: "Bot", items: [.request(InteropRequest(name: "Upload utters", spec: RequestSpec(method: .post, url: "https://x/upload", body: body)))])
+        let yaml = OpenAPIExporter.yaml(from: collection)
+        let fields = try #require(OpenAPIImporter.collection(from: try SpecDocument(text: yaml)).allRequests.first?.spec.body.formData)
+        #expect(Dictionary(uniqueKeysWithValues: fields.map { ($0.key, $0.notes) }) == ["utters": "One utterance per line", "file": "CSV export"])
+    }
+}

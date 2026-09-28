@@ -155,7 +155,8 @@ public enum OpenAPIImporter {
                     let resolved = document.resolve(property.value)
                     let isFile = resolved?["format"]?.string == "binary" || resolved?["type"]?.string == "file"
                     let value = isFile ? "" : stringValue(SchemaExample.generate(property.value, in: document))
-                    return FormDataField(key: property.key, kind: isFile ? .file : .text, value: value, isEnabled: required.isEmpty || required.contains(property.key))
+                    return FormDataField(key: property.key, kind: isFile ? .file : .text, value: value, isEnabled: required.isEmpty || required.contains(property.key),
+                                         notes: resolved?["description"]?.string ?? "")
                 })
             }
             return RequestBody(mode: .urlEncoded, urlEncoded: properties.map { property in

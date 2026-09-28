@@ -70,6 +70,15 @@ import APIStore
     /// Searching "utters" shows only the matching request, with its collection and folder expanded.
     /// Set SIDEBAR_SNAPSHOT_DIR to save a PNG of the result.
     @Test func searchExpandsAndHighlights() throws {
+        try render(search: "utters", openFirstRequest: false, snapshot: "sidebar-search.png")
+    }
+
+    /// The row of the selected tab gets the list's selection background.
+    @Test func selectedTabRowIsHighlighted() throws {
+        try render(search: "", openFirstRequest: true, snapshot: "sidebar-selection.png")
+    }
+
+    private func render(search: String, openFirstRequest: Bool, snapshot: String) throws {
         let container = try StoreFactory.makeContainer(inMemory: true)
         let context = container.mainContext
         let workspace = try StoreFactory.defaultWorkspace(in: context)
@@ -90,18 +99,21 @@ import APIStore
             }
         }
         try context.save()
+        if openFirstRequest, let node = workspace.collections.first(where: { $0.name == "Bot" })?.rootNodes.first?.sortedChildren?.first {
+            model.openRequest(node)
+        }
 
-        let host = NSHostingView(rootView: NavigationStack { CollectionsSidebar(workspace: workspace, search: "utters") }
+        let host = NSHostingView(rootView: NavigationStack { CollectionsSidebar(workspace: workspace, search: search) }
             .frame(width: 260, height: 300).environment(model).modelContainer(container))
         let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 260, height: 300), styleMask: [.titled], backing: .buffered, defer: false)
         window.contentView = host
-        window.orderFront(nil)
+        window.makeKeyAndOrderFront(nil)
         SidebarRenderTests.keepAlive += [window, container]
         RunLoop.main.run(until: Date().addingTimeInterval(0.5))
         if let directory = ProcessInfo.processInfo.environment["SIDEBAR_SNAPSHOT_DIR"],
            let rep = host.bitmapImageRepForCachingDisplay(in: host.bounds) {
             host.cacheDisplay(in: host.bounds, to: rep)
-            try rep.representation(using: .png, properties: [:])?.write(to: URL(fileURLWithPath: directory).appendingPathComponent("sidebar-search.png"))
+            try rep.representation(using: .png, properties: [:])?.write(to: URL(fileURLWithPath: directory).appendingPathComponent(snapshot))
         }
         window.orderOut(nil)
     }

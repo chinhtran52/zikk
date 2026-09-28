@@ -7,7 +7,7 @@ Zikk is built so that a fork can ship under its own name, identifier, icon and s
 
 ```xcconfig
 APP_NAME = Acme API                 // Dock, menu bar, Finder, About panel, User-Agent, generated docs
-APP_BUNDLE_ID = com.acme.api-client // must be unique; register it in App Store Connect
+APP_BUNDLE_ID = com.acme.acmeapi   // must be unique; register it in App Store Connect
 APP_URL_SCHEME = acmeapi            // OAuth 2.0 redirect URI becomes acmeapi://oauth/callback
 APP_COPYRIGHT = © 2026 Acme Inc.
 MARKETING_VERSION = 1.0.0

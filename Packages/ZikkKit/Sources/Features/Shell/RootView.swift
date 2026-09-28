@@ -11,6 +11,7 @@ public struct RootView: View {
     @State private var model: AppModel
     @State private var workspace: Workspace?
     @State private var loadError: String?
+    @State private var columnVisibility: NavigationSplitViewVisibility = .all
 
     public init(services: AppServices) {
         _model = State(initialValue: AppModel(services: services))
@@ -19,11 +20,19 @@ public struct RootView: View {
     public var body: some View {
         Group {
             if let workspace {
-                NavigationSplitView {
+                NavigationSplitView(columnVisibility: $columnVisibility) {
                     SidebarView(workspace: workspace)
                         .navigationSplitViewColumnWidth(min: 220, ideal: 280, max: 420)
+                        // Replaced by a plain icon button below (the system one always sits on a glass background).
+                        .toolbar(removing: .sidebarToggle)
                 } detail: {
                     WorkspaceView(workspace: workspace)
+                }
+                .toolbar {
+                    ToolbarItem(placement: .navigation) {
+                        SidebarToggleButton(visibility: $columnVisibility)
+                    }
+                    .sharedBackgroundVisibility(.hidden)
                 }
                 .environment(model)
                 .focusedSceneValue(\.appModel, model)
@@ -75,4 +84,22 @@ extension RequestDocument: Identifiable {
 
 extension FocusedValues {
     @Entry public var appModel: AppModel?
+}
+
+/// Sidebar toggle drawn as a plain icon, without the toolbar's glass background.
+private struct SidebarToggleButton: View {
+    @Binding var visibility: NavigationSplitViewVisibility
+
+    var body: some View {
+        Button {
+            withAnimation { visibility = visibility == .detailOnly ? .all : .detailOnly }
+        } label: {
+            Image(systemName: "sidebar.left")
+        }
+        .buttonStyle(PlainIconButtonStyle())
+        .keyboardShortcut("s", modifiers: [.control, .command])
+        .help(visibility == .detailOnly ? L("Show Sidebar") : L("Hide Sidebar"))
+        .accessibilityLabel(L("Toggle Sidebar"))
+        .accessibilityIdentifier("sidebar-toggle")
+    }
 }

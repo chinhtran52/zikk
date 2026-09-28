@@ -50,3 +50,17 @@ import Interop
         #expect(!html.contains(">secret<"))
     }
 }
+
+@Suite struct DocsFormDataNotesTests {
+    @Test func notesColumnOnlyWhenSomeFieldHasNotes() {
+        func html(_ fields: [FormDataField]) -> String {
+            let collection = InteropCollection(name: "Bot", items: [.request(InteropRequest(name: "Upload", spec: RequestSpec(method: .post, url: "https://x",
+                                                                                                                       body: RequestBody(mode: .formData, formData: fields))))])
+            return DocumentationGenerator(resolver: VariableResolver()).html(for: collection)
+        }
+        let withNotes = html([FormDataField(key: "utters", value: "hi", notes: "One <utterance> per line"), FormDataField(key: "lang", value: "vi")])
+        #expect(withNotes.contains("<th>Notes</th>"))
+        #expect(withNotes.contains("<td>One &lt;utterance&gt; per line</td>"))
+        #expect(!html([FormDataField(key: "lang", value: "vi")]).contains("<th>Notes</th>"))
+    }
+}

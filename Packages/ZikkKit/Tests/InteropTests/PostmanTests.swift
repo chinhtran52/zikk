@@ -84,3 +84,14 @@ import APICore
         #expect(throws: InteropError.invalidJSON) { try PostmanCollection.decode(Data("nope".utf8)) }
     }
 }
+
+@Suite struct PostmanFormDataNotesTests {
+    @Test func formDataNotesMapToDescription() throws {
+        let body = RequestBody(mode: .formData, formData: [FormDataField(key: "utters", value: "hi", notes: "One utterance per line"), FormDataField(key: "lang", value: "vi")])
+        let collection = InteropCollection(name: "Bot", items: [.request(InteropRequest(name: "Upload utters", spec: RequestSpec(method: .post, url: "https://x/upload", body: body)))])
+        let exported = PostmanCollection.encode(collection)
+        #expect(String(decoding: exported, as: UTF8.self).contains("One utterance per line"))
+        let fields = try #require(try PostmanCollection.decode(exported).allRequests.first?.spec.body.formData)
+        #expect(fields.map(\.notes) == ["One utterance per line", ""])
+    }
+}

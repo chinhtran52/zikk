@@ -37,6 +37,18 @@
         }
       }
     },
+    "Close Tab": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đóng tab"
+          }
+        }
+      }
+    },
     "Close tab": {
       "extractionState": "manual",
       "generatesSymbol": false,
@@ -165,6 +177,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Biến chưa được khai báo"
+          }
+        }
+      }
+    },
+    "Unsaved changes": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Có thay đổi chưa lưu"
           }
         }
       }

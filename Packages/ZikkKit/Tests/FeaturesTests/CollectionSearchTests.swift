@@ -117,3 +117,15 @@ import DesignSystem
         #expect(emphasized == ["utters"])
     }
 }
+
+extension CollectionSearchTests {
+    @Test func revealExpandsAncestorsEvenIfCollapsedDuringSearch() throws {
+        let t = try makeTree()
+        var expansion = TreeExpansion()
+        let search = CollectionSearch(query: "utters", collections: [t.bot])
+        expansion.set(t.nlu.id, expanded: false, search: search)
+        expansion.reveal([t.bot.id, t.nlu.id])
+        #expect(expansion.isExpanded(t.nlu.id, search: search))
+        #expect(expansion.isExpanded(t.nlu.id, search: CollectionSearch(query: "", collections: [t.bot])))
+    }
+}

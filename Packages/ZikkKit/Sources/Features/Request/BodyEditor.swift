@@ -136,12 +136,21 @@ struct FilePickerRow: View {
     }
 }
 
-private struct FormDataTable: View {
+struct FormDataTable: View {
     @Binding var fields: [FormDataField]
     @State private var placeholder = FormDataField()
 
     var body: some View {
         Grid(alignment: .leading, horizontalSpacing: 6, verticalSpacing: 4) {
+            GridRow {
+                Color.clear.gridCellUnsizedAxes([.horizontal, .vertical])
+                ForEach([L("Key"), L("Type"), L("Value"), L("Content-Type"), L("Notes")], id: \.self) { title in
+                    Text(title)
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                        .padding(.leading, 4)
+                }
+            }
             ForEach(fields + [placeholder]) { field in
                 let isPlaceholder = field.id == placeholder.id
                 GridRow {
@@ -163,6 +172,10 @@ private struct FormDataTable: View {
                     }
                     TextField(L("Content-Type"), text: binding(field, \.contentType))
                         .frame(maxWidth: 140)
+                    TextField(L("Notes"), text: binding(field, \.notes))
+                        // Long notes scroll inside the field; the tooltip shows them in full.
+                        .help(field.notes.isEmpty ? L("Notes about this field, e.g. what it is for or which values are allowed") : field.notes)
+                        .accessibilityIdentifier("form-field-notes")
                     Button {
                         fields.removeAll { $0.id == field.id }
                     } label: {

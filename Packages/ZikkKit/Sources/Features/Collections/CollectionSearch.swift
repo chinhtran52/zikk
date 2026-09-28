@@ -77,4 +77,10 @@ struct TreeExpansion {
     }
 
     mutating func searchChanged() { collapsedDuringSearch.removeAll() }
+
+    /// Expands `ids` (a row's collection and folders) so the row becomes visible.
+    mutating func reveal(_ ids: [UUID]) {
+        manual.formUnion(ids)
+        collapsedDuringSearch.subtract(ids)
+    }
 }

@@ -41,8 +41,11 @@ public struct FormDataField: Codable, Hashable, Identifiable, Sendable {
     public var file: FileReference?
     public var contentType: String
     public var isEnabled: Bool
+    /// Free-form notes about the field (what it is for, allowed values, …). Maps to Postman's `description`.
+    public var notes: String
 
-    public init(id: UUID = UUID(), key: String = "", kind: Kind = .text, value: String = "", file: FileReference? = nil, contentType: String = "", isEnabled: Bool = true) {
+    public init(id: UUID = UUID(), key: String = "", kind: Kind = .text, value: String = "", file: FileReference? = nil, contentType: String = "",
+                isEnabled: Bool = true, notes: String = "") {
         self.id = id
         self.key = key
         self.kind = kind
@@ -50,6 +53,22 @@ public struct FormDataField: Codable, Hashable, Identifiable, Sendable {
         self.file = file
         self.contentType = contentType
         self.isEnabled = isEnabled
+        self.notes = notes
+    }
+
+    private enum CodingKeys: String, CodingKey { case id, key, kind, value, file, contentType, isEnabled, notes }
+
+    /// Tolerant decoding: fields added later (e.g. `notes`) default when missing from stored data.
+    public init(from decoder: any Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        key = try container.decodeIfPresent(String.self, forKey: .key) ?? ""
+        kind = try container.decodeIfPresent(Kind.self, forKey: .kind) ?? .text
+        value = try container.decodeIfPresent(String.self, forKey: .value) ?? ""
+        file = try container.decodeIfPresent(FileReference.self, forKey: .file)
+        contentType = try container.decodeIfPresent(String.self, forKey: .contentType) ?? ""
+        isEnabled = try container.decodeIfPresent(Bool.self, forKey: .isEnabled) ?? true
+        notes = try container.decodeIfPresent(String.self, forKey: .notes) ?? ""
     }
 }
 

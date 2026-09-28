@@ -118,7 +118,7 @@ public enum PostmanCollection {
                 let src = (item["src"] as? String) ?? ((item["src"] as? [String])?.first)
                 return FormDataField(key: item.string("key") ?? "", kind: isFile ? .file : .text, value: item.string("value") ?? "",
                                      file: isFile ? src.map { FileReference(path: $0) } : nil, contentType: item.string("contentType") ?? "",
-                                     isEnabled: !(item.bool("disabled") ?? false))
+                                     isEnabled: !(item.bool("disabled") ?? false), notes: description(item["description"]))
             }
         case "file":
             body.mode = .binary
@@ -350,6 +350,7 @@ public enum PostmanCollection {
                 if field.kind == .file { object["src"] = field.file?.path ?? "" } else { object["value"] = field.value }
                 if !field.contentType.isEmpty { object["contentType"] = field.contentType }
                 if !field.isEnabled { object["disabled"] = true }
+                if !field.notes.isEmpty { object["description"] = field.notes }
                 return object
             }]
         case .binary:

@@ -1,4 +1,5 @@
 import SwiftUI
+import DesignSystem
 
 /// Bottom bar shared by all sidebar sections: one primary "+ New …" button that truncates instead of wrapping,
 /// plus optional icon-only accessories, so the bar never needs more width than the sidebar column.
@@ -28,9 +29,7 @@ struct SidebarBottomBar<Accessories: View>: View {
                 .layoutPriority(1)
                 Spacer(minLength: 4)
                 accessories
-                    .buttonStyle(.glass)
-                    .buttonBorderShape(.circle)
-                    .controlSize(.large)
+                    .buttonStyle(PlainIconButtonStyle())
             }
         }
         .padding(.horizontal, 10)

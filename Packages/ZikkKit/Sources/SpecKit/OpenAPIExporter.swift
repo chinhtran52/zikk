@@ -152,7 +152,8 @@ public enum OpenAPIExporter {
             return mapping([("content", mapping([("application/x-www-form-urlencoded", mapping([("schema", mapping([("type", "object"), ("properties", mapping(properties))]))]))]))])
         case .formData:
             let properties = body.formData.filter { !$0.key.isEmpty }.map { field in
-                (field.key, field.kind == .file ? mapping([("type", "string"), ("format", "binary")]) : mapping([("type", "string")] + example(field.value)))
+                let notes: [(String, Node)] = field.notes.isEmpty ? [] : [("description", Node(field.notes))]
+                return (field.key, field.kind == .file ? mapping([("type", "string"), ("format", "binary")] + notes) : mapping([("type", "string")] + notes + example(field.value)))
             }
             return mapping([("content", mapping([("multipart/form-data", mapping([("schema", mapping([("type", "object"), ("properties", mapping(properties))]))]))]))])
         case .binary:
