@@ -1,0 +1,32 @@
+{
+  "swagger": "2.0",
+  "info": { "title": "Legacy", "version": "1" },
+  "host": "legacy.test",
+  "basePath": "/api",
+  "schemes": ["https"],
+  "securityDefinitions": { "key": { "type": "apiKey", "name": "X-Key", "in": "header" } },
+  "security": [{ "key": [] }],
+  "paths": {
+    "/users/{id}": {
+      "get": {
+        "summary": "Get user",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "type": "integer" },
+          { "name": "fields", "in": "query", "type": "string", "default": "all" }
+        ],
+        "responses": { "200": { "description": "ok", "schema": { "$ref": "#/definitions/User" } } }
+      },
+      "put": {
+        "summary": "Update user",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "type": "integer" },
+          { "name": "body", "in": "body", "schema": { "$ref": "#/definitions/User" } }
+        ],
+        "responses": { "200": { "description": "ok" } }
+      }
+    }
+  },
+  "definitions": {
+    "User": { "type": "object", "properties": { "id": { "type": "integer" }, "email": { "type": "string", "format": "email" } } }
+  }
+}

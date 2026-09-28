@@ -1,0 +1,198 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "(empty)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(trống)"
+          }
+        }
+      }
+    },
+    "Add variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm biến"
+          }
+        }
+      }
+    },
+    "Close": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đóng"
+          }
+        }
+      }
+    },
+    "Close tab": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đóng tab"
+          }
+        }
+      }
+    },
+    "Define it in the active environment, the collection or globals.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hãy khai báo biến trong environment đang dùng, collection hoặc globals."
+          }
+        }
+      }
+    },
+    "Description": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô tả"
+          }
+        }
+      }
+    },
+    "Key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa"
+          }
+        }
+      }
+    },
+    "New Tab": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab mới"
+          }
+        }
+      }
+    },
+    "Remove row": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa dòng"
+          }
+        }
+      }
+    },
+    "Resize": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đổi kích thước"
+          }
+        }
+      }
+    },
+    "Resolves to %@": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giá trị thực: %@"
+          }
+        }
+      }
+    },
+    "Reveal value": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện giá trị"
+          }
+        }
+      }
+    },
+    "Secret": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bí mật"
+          }
+        }
+      }
+    },
+    "Unresolved variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biến chưa được khai báo"
+          }
+        }
+      }
+    },
+    "Value": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giá trị"
+          }
+        }
+      }
+    },
+    "Variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biến"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

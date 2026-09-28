@@ -1,0 +1,5190 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld errors": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld lỗi"
+          }
+        }
+      }
+    },
+    "%lld rows": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld dòng"
+          }
+        }
+      }
+    },
+    "%lld warnings": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld cảnh báo"
+          }
+        }
+      }
+    },
+    "<binary data>": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "<dữ liệu nhị phân>"
+          }
+        }
+      }
+    },
+    "ADDED": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "THÊM"
+          }
+        }
+      }
+    },
+    "API Key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API Key"
+          }
+        }
+      }
+    },
+    "APIs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API"
+          }
+        }
+      }
+    },
+    "AWS Region": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AWS Region"
+          }
+        }
+      }
+    },
+    "AWS Signature": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AWS Signature"
+          }
+        }
+      }
+    },
+    "Access Key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access Key"
+          }
+        }
+      }
+    },
+    "Access Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access Token"
+          }
+        }
+      }
+    },
+    "Access Token URL": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL lấy Access Token"
+          }
+        }
+      }
+    },
+    "Active environment": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Môi trường đang dùng"
+          }
+        }
+      }
+    },
+    "Add": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm"
+          }
+        }
+      }
+    },
+    "Add Certificate": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm chứng chỉ"
+          }
+        }
+      }
+    },
+    "Add Column": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm cột"
+          }
+        }
+      }
+    },
+    "Add Folder": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm thư mục"
+          }
+        }
+      }
+    },
+    "Add Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm request"
+          }
+        }
+      }
+    },
+    "Add Row": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm dòng"
+          }
+        }
+      }
+    },
+    "Add a header": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm header"
+          }
+        }
+      }
+    },
+    "Add a timestamp query param": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm tham số timestamp"
+          }
+        }
+      }
+    },
+    "Add parameters to URL instead of header": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm tham số vào URL thay vì header"
+          }
+        }
+      }
+    },
+    "Add to": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm vào"
+          }
+        }
+      }
+    },
+    "All": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tất cả"
+          }
+        }
+      }
+    },
+    "Apply Changes": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Áp dụng thay đổi"
+          }
+        }
+      }
+    },
+    "Auth URL": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL xác thực"
+          }
+        }
+      }
+    },
+    "Authorization": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xác thực"
+          }
+        }
+      }
+    },
+    "Authorization Code": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorization Code"
+          }
+        }
+      }
+    },
+    "Authorization Code (With PKCE)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authorization Code (có PKCE)"
+          }
+        }
+      }
+    },
+    "Avg.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TB"
+          }
+        }
+      }
+    },
+    "Avg. Response Time": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian phản hồi TB"
+          }
+        }
+      }
+    },
+    "Avg. response time (ms)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian phản hồi TB (ms)"
+          }
+        }
+      }
+    },
+    "Basic Auth": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basic Auth"
+          }
+        }
+      }
+    },
+    "Bearer Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearer Token"
+          }
+        }
+      }
+    },
+    "Beautify": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Định dạng"
+          }
+        }
+      }
+    },
+    "Binary (Base64)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhị phân (Base64)"
+          }
+        }
+      }
+    },
+    "Body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body"
+          }
+        }
+      }
+    },
+    "CHANGED": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "THAY ĐỔI"
+          }
+        }
+      }
+    },
+    "Callback URL": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Callback URL"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
+          }
+        }
+      }
+    },
+    "Certificates": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chứng chỉ"
+          }
+        }
+      }
+    },
+    "Change File": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đổi tệp"
+          }
+        }
+      }
+    },
+    "Changes to apply to “%@” so it matches the spec. Your scripts, auth and parameter values are kept.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Các thay đổi sẽ áp dụng cho “%@” để khớp với spec. Script, xác thực và giá trị tham số của bạn được giữ nguyên."
+          }
+        }
+      }
+    },
+    "Choose .p12 File…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn tệp .p12…"
+          }
+        }
+      }
+    },
+    "Choose Files…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn tệp…"
+          }
+        }
+      }
+    },
+    "Choose iterations, data and requests, then click Run.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn số lần lặp, dữ liệu và request rồi bấm Chạy."
+          }
+        }
+      }
+    },
+    "Clear": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
+          }
+        }
+      }
+    },
+    "Clear All": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa tất cả"
+          }
+        }
+      }
+    },
+    "Client Authentication": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xác thực client"
+          }
+        }
+      }
+    },
+    "Client Credentials": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Client Credentials"
+          }
+        }
+      }
+    },
+    "Client ID": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Client ID"
+          }
+        }
+      }
+    },
+    "Client Secret": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Client Secret"
+          }
+        }
+      }
+    },
+    "Client certificates (mTLS)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chứng chỉ client (mTLS)"
+          }
+        }
+      }
+    },
+    "Client streaming: enter a JSON array of messages.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Client streaming: nhập một mảng JSON các message."
+          }
+        }
+      }
+    },
+    "Close Tab": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đóng tab"
+          }
+        }
+      }
+    },
+    "Code": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mã"
+          }
+        }
+      }
+    },
+    "Code samples": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mã mẫu"
+          }
+        }
+      }
+    },
+    "Collection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ sưu tập"
+          }
+        }
+      }
+    },
+    "Collection name": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên bộ sưu tập"
+          }
+        }
+      }
+    },
+    "Collection root": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gốc bộ sưu tập"
+          }
+        }
+      }
+    },
+    "Collections": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ sưu tập"
+          }
+        }
+      }
+    },
+    "Coming soon": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sắp ra mắt"
+          }
+        }
+      }
+    },
+    "Completed": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoàn tất"
+          }
+        }
+      }
+    },
+    "Configure New Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cấu hình token mới"
+          }
+        }
+      }
+    },
+    "Connect": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kết nối"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã kết nối"
+          }
+        }
+      }
+    },
+    "Connected (HTTP %lld)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã kết nối (HTTP %lld)"
+          }
+        }
+      }
+    },
+    "Connected (subprotocol: %@)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã kết nối (subprotocol: %@)"
+          }
+        }
+      }
+    },
+    "Connecting to %@": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang kết nối tới %@"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang kết nối…"
+          }
+        }
+      }
+    },
+    "Console": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Console"
+          }
+        }
+      }
+    },
+    "Consumer Key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consumer Key"
+          }
+        }
+      }
+    },
+    "Consumer Secret": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consumer Secret"
+          }
+        }
+      }
+    },
+    "Content Download": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tải nội dung"
+          }
+        }
+      }
+    },
+    "Content-Type": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Content-Type"
+          }
+        }
+      }
+    },
+    "Content-Type header is present": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Có header Content-Type"
+          }
+        }
+      }
+    },
+    "Cookies": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cookie"
+          }
+        }
+      }
+    },
+    "Cookies set by responses are stored here and sent with matching requests.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cookie do response thiết lập được lưu ở đây và gửi kèm các request phù hợp."
+          }
+        }
+      }
+    },
+    "Cookies…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cookie…"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản sao"
+          }
+        }
+      }
+    },
+    "Copy URL": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép URL"
+          }
+        }
+      }
+    },
+    "Copy response body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép body response"
+          }
+        }
+      }
+    },
+    "Copy snippet": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép đoạn mã"
+          }
+        }
+      }
+    },
+    "Could not open workspace": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể mở workspace"
+          }
+        }
+      }
+    },
+    "Could not read the selected file.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể đọc tệp đã chọn."
+          }
+        }
+      }
+    },
+    "Could not send request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể gửi request"
+          }
+        }
+      }
+    },
+    "Create a collection to group and save your requests.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạo bộ sưu tập để nhóm và lưu các request của bạn."
+          }
+        }
+      }
+    },
+    "Current Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token hiện tại"
+          }
+        }
+      }
+    },
+    "Custom…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tùy chỉnh…"
+          }
+        }
+      }
+    },
+    "DNS Lookup": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tra cứu DNS"
+          }
+        }
+      }
+    },
+    "Data": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dữ liệu"
+          }
+        }
+      }
+    },
+    "Datasets": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ dữ liệu"
+          }
+        }
+      }
+    },
+    "Datasets are CSV or JSON tables used as iteration data in the Collection Runner.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ dữ liệu là bảng CSV hoặc JSON dùng làm dữ liệu lặp trong Collection Runner."
+          }
+        }
+      }
+    },
+    "Deadline (ms, 0 = none)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deadline (ms, 0 = không giới hạn)"
+          }
+        }
+      }
+    },
+    "Delay (ms)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Độ trễ (ms)"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
+          }
+        }
+      }
+    },
+    "Delete cookie": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa cookie"
+          }
+        }
+      }
+    },
+    "Deprecated": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không còn dùng"
+          }
+        }
+      }
+    },
+    "Deselect All": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ chọn tất cả"
+          }
+        }
+      }
+    },
+    "Design APIs with OpenAPI, generate collections from them and validate responses against them.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thiết kế API bằng OpenAPI, sinh collection từ spec và kiểm tra response theo spec."
+          }
+        }
+      }
+    },
+    "Digest Auth": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Digest Auth"
+          }
+        }
+      }
+    },
+    "Disable cookie jar": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tắt cookie jar"
+          }
+        }
+      }
+    },
+    "Disconnect": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngắt kết nối"
+          }
+        }
+      }
+    },
+    "Disconnected": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã ngắt kết nối"
+          }
+        }
+      }
+    },
+    "Disconnected (code %lld)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã ngắt kết nối (mã %lld)"
+          }
+        }
+      }
+    },
+    "Docs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tài liệu"
+          }
+        }
+      }
+    },
+    "Documentation": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tài liệu"
+          }
+        }
+      }
+    },
+    "Domain": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên miền"
+          }
+        }
+      }
+    },
+    "Done": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhân bản"
+          }
+        }
+      }
+    },
+    "Duration": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời lượng"
+          }
+        }
+      }
+    },
+    "Dynamic": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Động"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sửa"
+          }
+        }
+      }
+    },
+    "Editor font size": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cỡ chữ trình soạn thảo"
+          }
+        }
+      }
+    },
+    "Enable “Keep responses” to inspect response bodies.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật “Giữ response” để xem body response."
+          }
+        }
+      }
+    },
+    "Encode URL automatically": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động mã hóa URL"
+          }
+        }
+      }
+    },
+    "Endpoints with examples": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endpoint có ví dụ"
+          }
+        }
+      }
+    },
+    "Enter URL or paste text": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập URL hoặc dán văn bản"
+          }
+        }
+      }
+    },
+    "Enter a WebSocket URL (ws:// or wss://)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập URL WebSocket (ws:// hoặc wss://)"
+          }
+        }
+      }
+    },
+    "Enter an event stream URL": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập URL event stream"
+          }
+        }
+      }
+    },
+    "Enter the URL and click Send to get a response": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập URL và bấm Gửi để nhận response"
+          }
+        }
+      }
+    },
+    "Environment": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Môi trường"
+          }
+        }
+      }
+    },
+    "Environments": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Môi trường"
+          }
+        }
+      }
+    },
+    "Error": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lỗi"
+          }
+        }
+      }
+    },
+    "Error rate": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tỉ lệ lỗi"
+          }
+        }
+      }
+    },
+    "Errors": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lỗi"
+          }
+        }
+      }
+    },
+    "Example": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ví dụ"
+          }
+        }
+      }
+    },
+    "Example name": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên ví dụ"
+          }
+        }
+      }
+    },
+    "Examples": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ví dụ"
+          }
+        }
+      }
+    },
+    "Expires": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hết hạn"
+          }
+        }
+      }
+    },
+    "Export CSV…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xuất CSV…"
+          }
+        }
+      }
+    },
+    "Export HTML…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xuất HTML…"
+          }
+        }
+      }
+    },
+    "Export Results": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xuất kết quả"
+          }
+        }
+      }
+    },
+    "Export…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xuất…"
+          }
+        }
+      }
+    },
+    "FAIL": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LỖI"
+          }
+        }
+      }
+    },
+    "Failed": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thất bại"
+          }
+        }
+      }
+    },
+    "Fetch Schema": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lấy schema"
+          }
+        }
+      }
+    },
+    "Fetch the schema via introspection to browse types and insert queries.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lấy schema qua introspection để duyệt kiểu dữ liệu và chèn query."
+          }
+        }
+      }
+    },
+    "File": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tệp"
+          }
+        }
+      }
+    },
+    "Filter": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lọc"
+          }
+        }
+      }
+    },
+    "Folder": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thư mục"
+          }
+        }
+      }
+    },
+    "Follow redirects": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động chuyển hướng"
+          }
+        }
+      }
+    },
+    "Functional": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chức năng"
+          }
+        }
+      }
+    },
+    "General": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chung"
+          }
+        }
+      }
+    },
+    "Generate New Collection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sinh collection mới"
+          }
+        }
+      }
+    },
+    "Generated when the request is sent": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Được sinh khi gửi request"
+          }
+        }
+      }
+    },
+    "Get New Access Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lấy Access Token mới"
+          }
+        }
+      }
+    },
+    "Get a variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lấy biến"
+          }
+        }
+      }
+    },
+    "Global": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Global"
+          }
+        }
+      }
+    },
+    "Globals": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biến toàn cục"
+          }
+        }
+      }
+    },
+    "Grant Type": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grant Type"
+          }
+        }
+      }
+    },
+    "GraphQL Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request GraphQL"
+          }
+        }
+      }
+    },
+    "GraphQL Variables": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biến GraphQL"
+          }
+        }
+      }
+    },
+    "HMAC signature (CryptoJS)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chữ ký HMAC (CryptoJS)"
+          }
+        }
+      }
+    },
+    "HTTP Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request HTTP"
+          }
+        }
+      }
+    },
+    "HTTP Version": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản HTTP"
+          }
+        }
+      }
+    },
+    "Header": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Header"
+          }
+        }
+      }
+    },
+    "Header Prefix": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiền tố header"
+          }
+        }
+      }
+    },
+    "Headers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Header"
+          }
+        }
+      }
+    },
+    "History": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lịch sử"
+          }
+        }
+      }
+    },
+    "History entries to keep": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số mục lịch sử lưu giữ"
+          }
+        }
+      }
+    },
+    "Host (e.g. api.example.com)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Host (ví dụ api.example.com)"
+          }
+        }
+      }
+    },
+    "HttpOnly": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HttpOnly"
+          }
+        }
+      }
+    },
+    "Import": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập"
+          }
+        }
+      }
+    },
+    "Import (⌘O)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập (⌘O)"
+          }
+        }
+      }
+    },
+    "Import .proto…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập .proto…"
+          }
+        }
+      }
+    },
+    "Import CSV/JSON…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập CSV/JSON…"
+          }
+        }
+      }
+    },
+    "Import a Postman collection or environment, an OpenAPI/Swagger spec, or paste a cURL command.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập collection hoặc environment của Postman, spec OpenAPI/Swagger, hoặc dán lệnh cURL."
+          }
+        }
+      }
+    },
+    "Import…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập…"
+          }
+        }
+      }
+    },
+    "Inherit auth from parent": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kế thừa xác thực từ cha"
+          }
+        }
+      }
+    },
+    "Insert": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chèn"
+          }
+        }
+      }
+    },
+    "Invoke": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gọi"
+          }
+        }
+      }
+    },
+    "Iteration %lld": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lần lặp %lld"
+          }
+        }
+      }
+    },
+    "Iterations": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số lần lặp"
+          }
+        }
+      }
+    },
+    "JSON": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON"
+          }
+        }
+      }
+    },
+    "JUnit XML": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JUnit XML"
+          }
+        }
+      }
+    },
+    "Keep responses": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giữ response"
+          }
+        }
+      }
+    },
+    "Key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa"
+          }
+        }
+      }
+    },
+    "Language": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngôn ngữ"
+          }
+        }
+      }
+    },
+    "Line %lld": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dòng %lld"
+          }
+        }
+      }
+    },
+    "Linked collection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collection liên kết"
+          }
+        }
+      }
+    },
+    "Linked to a collection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã liên kết với collection"
+          }
+        }
+      }
+    },
+    "Load the service definition, choose a method and click Invoke.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp định nghĩa service, chọn method rồi bấm Gọi."
+          }
+        }
+      }
+    },
+    "Logs only": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ log"
+          }
+        }
+      }
+    },
+    "Manage Cookies": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quản lý cookie"
+          }
+        }
+      }
+    },
+    "Manage cookies": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quản lý cookie"
+          }
+        }
+      }
+    },
+    "Match request body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So khớp body request"
+          }
+        }
+      }
+    },
+    "Match request headers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So khớp header request"
+          }
+        }
+      }
+    },
+    "Maximum redirects": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số lần chuyển hướng tối đa"
+          }
+        }
+      }
+    },
+    "Message": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tin nhắn"
+          }
+        }
+      }
+    },
+    "Messages": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tin nhắn"
+          }
+        }
+      }
+    },
+    "Metadata": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metadata"
+          }
+        }
+      }
+    },
+    "Metadata key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khóa metadata"
+          }
+        }
+      }
+    },
+    "Method": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phương thức"
+          }
+        }
+      }
+    },
+    "Mock": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mock"
+          }
+        }
+      }
+    },
+    "Mock Collection…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mock bộ sưu tập…"
+          }
+        }
+      }
+    },
+    "Mock Servers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mock server"
+          }
+        }
+      }
+    },
+    "Mock servers answer requests with the saved examples of a collection or the examples of an API spec.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mock server trả lời request bằng các ví dụ đã lưu của collection hoặc ví dụ trong spec API."
+          }
+        }
+      }
+    },
+    "Name": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên"
+          }
+        }
+      }
+    },
+    "New API": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API mới"
+          }
+        }
+      }
+    },
+    "New API Spec": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spec API mới"
+          }
+        }
+      }
+    },
+    "New Collection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ sưu tập mới"
+          }
+        }
+      }
+    },
+    "New Dataset": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ dữ liệu mới"
+          }
+        }
+      }
+    },
+    "New Environment": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Môi trường mới"
+          }
+        }
+      }
+    },
+    "New Folder": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thư mục mới"
+          }
+        }
+      }
+    },
+    "New Mock Server": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mock server mới"
+          }
+        }
+      }
+    },
+    "New Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request mới"
+          }
+        }
+      }
+    },
+    "New Window": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cửa sổ mới"
+          }
+        }
+      }
+    },
+    "New collection…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ sưu tập mới…"
+          }
+        }
+      }
+    },
+    "New column": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cột mới"
+          }
+        }
+      }
+    },
+    "New…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mới…"
+          }
+        }
+      }
+    },
+    "No API Specs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có spec API"
+          }
+        }
+      }
+    },
+    "No Auth": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không xác thực"
+          }
+        }
+      }
+    },
+    "No Collections": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có bộ sưu tập"
+          }
+        }
+      }
+    },
+    "No Cookies": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có cookie"
+          }
+        }
+      }
+    },
+    "No Datasets": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có bộ dữ liệu"
+          }
+        }
+      }
+    },
+    "No Environment": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có môi trường"
+          }
+        }
+      }
+    },
+    "No History": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có lịch sử"
+          }
+        }
+      }
+    },
+    "No Mock Servers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có mock server"
+          }
+        }
+      }
+    },
+    "No Open Tabs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa mở tab nào"
+          }
+        }
+      }
+    },
+    "No Requests Yet": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có request"
+          }
+        }
+      }
+    },
+    "No Response": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có response"
+          }
+        }
+      }
+    },
+    "No Schema": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có schema"
+          }
+        }
+      }
+    },
+    "No Tests": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có test"
+          }
+        }
+      }
+    },
+    "No certificates. Add a PKCS#12 (.p12/.pfx) file for hosts that require client authentication.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có chứng chỉ. Thêm tệp PKCS#12 (.p12/.pfx) cho các host yêu cầu xác thực client."
+          }
+        }
+      }
+    },
+    "No description. Switch to Edit to add one using Markdown.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có mô tả. Chuyển sang Sửa để thêm bằng Markdown."
+          }
+        }
+      }
+    },
+    "No match": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không khớp"
+          }
+        }
+      }
+    },
+    "No problems found": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có lỗi"
+          }
+        }
+      }
+    },
+    "None": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không"
+          }
+        }
+      }
+    },
+    "Not Found": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không tìm thấy"
+          }
+        }
+      }
+    },
+    "OAuth 1.0": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OAuth 1.0"
+          }
+        }
+      }
+    },
+    "OAuth 2.0": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OAuth 2.0"
+          }
+        }
+      }
+    },
+    "Open": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở"
+          }
+        }
+      }
+    },
+    "Open a request from the sidebar or create a new one.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở một request từ thanh bên hoặc tạo request mới."
+          }
+        }
+      }
+    },
+    "Operation name": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên operation"
+          }
+        }
+      }
+    },
+    "Or paste raw text": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoặc dán văn bản"
+          }
+        }
+      }
+    },
+    "Overview": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tổng quan"
+          }
+        }
+      }
+    },
+    "PASS": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ĐẠT"
+          }
+        }
+      }
+    },
+    "Parameters": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tham số"
+          }
+        }
+      }
+    },
+    "Params": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tham số"
+          }
+        }
+      }
+    },
+    "Parse": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phân tích"
+          }
+        }
+      }
+    },
+    "Passed": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đạt"
+          }
+        }
+      }
+    },
+    "Passphrase": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mật khẩu"
+          }
+        }
+      }
+    },
+    "Password": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mật khẩu"
+          }
+        }
+      }
+    },
+    "Password Credentials": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password Credentials"
+          }
+        }
+      }
+    },
+    "Paste a .proto definition, import a file, or leave empty to use server reflection.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dán định nghĩa .proto, nhập tệp, hoặc để trống để dùng server reflection."
+          }
+        }
+      }
+    },
+    "Path": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đường dẫn"
+          }
+        }
+      }
+    },
+    "Path Variables": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biến đường dẫn"
+          }
+        }
+      }
+    },
+    "Performance": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiệu năng"
+          }
+        }
+      }
+    },
+    "Performance Test": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểm thử hiệu năng"
+          }
+        }
+      }
+    },
+    "Persist variable changes": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu thay đổi biến"
+          }
+        }
+      }
+    },
+    "Ping interval (seconds, 0 = off)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chu kỳ ping (giây, 0 = tắt)"
+          }
+        }
+      }
+    },
+    "Port": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cổng"
+          }
+        }
+      }
+    },
+    "Post-response": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sau response"
+          }
+        }
+      }
+    },
+    "Pre-request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trước request"
+          }
+        }
+      }
+    },
+    "Prefix": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiền tố"
+          }
+        }
+      }
+    },
+    "Pretty": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đẹp"
+          }
+        }
+      }
+    },
+    "Preview": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem trước"
+          }
+        }
+      }
+    },
+    "Proxy": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proxy"
+          }
+        }
+      }
+    },
+    "Proxy host": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Host proxy"
+          }
+        }
+      }
+    },
+    "Proxy port": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cổng proxy"
+          }
+        }
+      }
+    },
+    "Query": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Query"
+          }
+        }
+      }
+    },
+    "Query Params": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tham số query"
+          }
+        }
+      }
+    },
+    "REMOVED": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "XÓA"
+          }
+        }
+      }
+    },
+    "Ramp up": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tăng dần"
+          }
+        }
+      }
+    },
+    "Raw": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thô"
+          }
+        }
+      }
+    },
+    "Realm": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Realm"
+          }
+        }
+      }
+    },
+    "Received": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã nhận"
+          }
+        }
+      }
+    },
+    "Reconnect automatically": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động kết nối lại"
+          }
+        }
+      }
+    },
+    "Reconnecting in %@": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kết nối lại sau %@"
+          }
+        }
+      }
+    },
+    "Reconnecting…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang kết nối lại…"
+          }
+        }
+      }
+    },
+    "Reference variables with {{name}} in URLs, headers, bodies and auth. Secret values are stored in the Keychain.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tham chiếu biến bằng {{name}} trong URL, header, body và xác thực. Giá trị bí mật được lưu trong Keychain."
+          }
+        }
+      }
+    },
+    "Refresh": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới"
+          }
+        }
+      }
+    },
+    "Refresh Schema": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới schema"
+          }
+        }
+      }
+    },
+    "Refresh Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm mới token"
+          }
+        }
+      }
+    },
+    "Reload .proto": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nạp lại .proto"
+          }
+        }
+      }
+    },
+    "Remove certificate": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa chứng chỉ"
+          }
+        }
+      }
+    },
+    "Remove column": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa cột"
+          }
+        }
+      }
+    },
+    "Remove file": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ tệp"
+          }
+        }
+      }
+    },
+    "Remove row": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa dòng"
+          }
+        }
+      }
+    },
+    "Rename": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đổi tên"
+          }
+        }
+      }
+    },
+    "Rename…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đổi tên…"
+          }
+        }
+      }
+    },
+    "Reopen tabs from the last session": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở lại các tab của phiên trước"
+          }
+        }
+      }
+    },
+    "Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request"
+          }
+        }
+      }
+    },
+    "Request Body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body request"
+          }
+        }
+      }
+    },
+    "Request Headers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Header request"
+          }
+        }
+      }
+    },
+    "Request Log": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhật ký request"
+          }
+        }
+      }
+    },
+    "Request Sent": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi request"
+          }
+        }
+      }
+    },
+    "Request name": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên request"
+          }
+        }
+      }
+    },
+    "Request skipped by pre-request script.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request bị bỏ qua bởi pre-request script."
+          }
+        }
+      }
+    },
+    "Request timeout": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian chờ request"
+          }
+        }
+      }
+    },
+    "Requests": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request"
+          }
+        }
+      }
+    },
+    "Requests and console.log output from scripts appear here.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Các request và output console.log từ script xuất hiện ở đây."
+          }
+        }
+      }
+    },
+    "Requests you send will appear here.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Các request bạn gửi sẽ xuất hiện ở đây."
+          }
+        }
+      }
+    },
+    "Response": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Response"
+          }
+        }
+      }
+    },
+    "Response Body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body response"
+          }
+        }
+      }
+    },
+    "Response Headers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Header response"
+          }
+        }
+      }
+    },
+    "Response body: JSON value check": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body response: kiểm tra giá trị JSON"
+          }
+        }
+      }
+    },
+    "Response body: contains string": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body response: chứa chuỗi"
+          }
+        }
+      }
+    },
+    "Response size": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kích thước response"
+          }
+        }
+      }
+    },
+    "Response time": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian phản hồi"
+          }
+        }
+      }
+    },
+    "Response time is less than 200ms": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian phản hồi dưới 200ms"
+          }
+        }
+      }
+    },
+    "Responses": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Response"
+          }
+        }
+      }
+    },
+    "Run": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạy"
+          }
+        }
+      }
+    },
+    "Run Collection…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạy bộ sưu tập…"
+          }
+        }
+      }
+    },
+    "Run Folder…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạy thư mục…"
+          }
+        }
+      }
+    },
+    "Run your collection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạy bộ sưu tập"
+          }
+        }
+      }
+    },
+    "Runner": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runner"
+          }
+        }
+      }
+    },
+    "Running iteration %lld…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang chạy lần lặp %lld…"
+          }
+        }
+      }
+    },
+    "SKIPPED": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BỎ QUA"
+          }
+        }
+      }
+    },
+    "SSL Handshake": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt tay SSL"
+          }
+        }
+      }
+    },
+    "Save": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
+          }
+        }
+      }
+    },
+    "Save (⌘S)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu (⌘S)"
+          }
+        }
+      }
+    },
+    "Save Message": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu tin nhắn"
+          }
+        }
+      }
+    },
+    "Save a response value to environment": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu giá trị response vào môi trường"
+          }
+        }
+      }
+    },
+    "Save as Example": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu thành ví dụ"
+          }
+        }
+      }
+    },
+    "Save example responses on requests (Save as Example) so the mock can return them.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu response ví dụ cho request (Lưu thành ví dụ) để mock có thể trả về."
+          }
+        }
+      }
+    },
+    "Save response as example": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu response thành ví dụ"
+          }
+        }
+      }
+    },
+    "Save response to file": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu response ra tệp"
+          }
+        }
+      }
+    },
+    "Save the request to a collection to document it.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu request vào một collection để viết tài liệu cho nó."
+          }
+        }
+      }
+    },
+    "Saved Messages": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tin nhắn đã lưu"
+          }
+        }
+      }
+    },
+    "Schema": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schema"
+          }
+        }
+      }
+    },
+    "Scope": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scope"
+          }
+        }
+      }
+    },
+    "Scripts": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Script"
+          }
+        }
+      }
+    },
+    "Search": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm kiếm"
+          }
+        }
+      }
+    },
+    "Search history": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm trong lịch sử"
+          }
+        }
+      }
+    },
+    "Search requests": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm request"
+          }
+        }
+      }
+    },
+    "Search types and fields": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm kiểu và trường"
+          }
+        }
+      }
+    },
+    "Secret Key": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Secret Key"
+          }
+        }
+      }
+    },
+    "Section": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mục"
+          }
+        }
+      }
+    },
+    "Secure": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Secure"
+          }
+        }
+      }
+    },
+    "Select All": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn tất cả"
+          }
+        }
+      }
+    },
+    "Select File": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn tệp"
+          }
+        }
+      }
+    },
+    "Select a method": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn method"
+          }
+        }
+      }
+    },
+    "Select a type": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn một kiểu"
+          }
+        }
+      }
+    },
+    "Send": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi"
+          }
+        }
+      }
+    },
+    "Send a request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi request"
+          }
+        }
+      }
+    },
+    "Send as Basic Auth header": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi dạng header Basic Auth"
+          }
+        }
+      }
+    },
+    "Send client credentials in body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi thông tin client trong body"
+          }
+        }
+      }
+    },
+    "Send requests to the mock URL to see them here.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi request tới URL mock để xem tại đây."
+          }
+        }
+      }
+    },
+    "Sending request…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang gửi request…"
+          }
+        }
+      }
+    },
+    "Sent": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã gửi"
+          }
+        }
+      }
+    },
+    "Series": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chuỗi"
+          }
+        }
+      }
+    },
+    "Server": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server"
+          }
+        }
+      }
+    },
+    "Server address, e.g. localhost:50051 or grpcs://api.example.com": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Địa chỉ server, ví dụ localhost:50051 hoặc grpcs://api.example.com"
+          }
+        }
+      }
+    },
+    "Server-Sent Events": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server-Sent Events"
+          }
+        }
+      }
+    },
+    "Service Definition": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Định nghĩa service"
+          }
+        }
+      }
+    },
+    "Service Name": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên dịch vụ"
+          }
+        }
+      }
+    },
+    "Session": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên"
+          }
+        }
+      }
+    },
+    "Session Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session Token"
+          }
+        }
+      }
+    },
+    "Set Active": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt làm hiện hành"
+          }
+        }
+      }
+    },
+    "Set a collection variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt biến collection"
+          }
+        }
+      }
+    },
+    "Set a global variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt biến toàn cục"
+          }
+        }
+      }
+    },
+    "Set an environment variable": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt biến môi trường"
+          }
+        }
+      }
+    },
+    "Set next request (runner)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt request tiếp theo (runner)"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt"
+          }
+        }
+      }
+    },
+    "Show Console": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện Console"
+          }
+        }
+      }
+    },
+    "Show Console (⌥⌘C)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện Console (⌥⌘C)"
+          }
+        }
+      }
+    },
+    "Show Next Tab": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab tiếp theo"
+          }
+        }
+      }
+    },
+    "Show Previous Tab": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tab trước"
+          }
+        }
+      }
+    },
+    "Show code snippet": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện đoạn mã"
+          }
+        }
+      }
+    },
+    "Showing the first %@ of %@. Save the response to see all of it.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang hiển thị %@ đầu tiên trên tổng %@. Lưu response ra tệp để xem toàn bộ."
+          }
+        }
+      }
+    },
+    "Signature Method": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phương thức ký"
+          }
+        }
+      }
+    },
+    "Simulate virtual users sending the selected requests in a loop and measure latency and throughput.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mô phỏng người dùng ảo gửi liên tục các request đã chọn và đo độ trễ, thông lượng."
+          }
+        }
+      }
+    },
+    "Skipped": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ qua"
+          }
+        }
+      }
+    },
+    "Snippets": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đoạn mã mẫu"
+          }
+        }
+      }
+    },
+    "Source": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nguồn"
+          }
+        }
+      }
+    },
+    "Start": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khởi động"
+          }
+        }
+      }
+    },
+    "Start Load Test": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu kiểm thử tải"
+          }
+        }
+      }
+    },
+    "Start the mock server to receive requests.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khởi động mock server để nhận request."
+          }
+        }
+      }
+    },
+    "State": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "State"
+          }
+        }
+      }
+    },
+    "Status": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trạng thái"
+          }
+        }
+      }
+    },
+    "Status code": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mã trạng thái"
+          }
+        }
+      }
+    },
+    "Status code is 200": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mã trạng thái là 200"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dừng"
+          }
+        }
+      }
+    },
+    "Stop run if an error occurs": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dừng khi có lỗi"
+          }
+        }
+      }
+    },
+    "Stopped": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã dừng"
+          }
+        }
+      }
+    },
+    "Subprotocols (comma separated)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subprotocol (phân tách bằng dấu phẩy)"
+          }
+        }
+      }
+    },
+    "Sync Collection with Spec": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ collection với spec"
+          }
+        }
+      }
+    },
+    "Sync Linked Collection…": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ collection liên kết…"
+          }
+        }
+      }
+    },
+    "TCP Handshake": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt tay TCP"
+          }
+        }
+      }
+    },
+    "Test Results": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kết quả test"
+          }
+        }
+      }
+    },
+    "Text": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản"
+          }
+        }
+      }
+    },
+    "The collection already matches the spec.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collection đã khớp với spec."
+          }
+        }
+      }
+    },
+    "The message is not valid Base64.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tin nhắn không phải Base64 hợp lệ."
+          }
+        }
+      }
+    },
+    "The response did not set any cookies.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Response không thiết lập cookie nào."
+          }
+        }
+      }
+    },
+    "This item no longer exists.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mục này không còn tồn tại."
+          }
+        }
+      }
+    },
+    "This request does not have a body": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request này không có body"
+          }
+        }
+      }
+    },
+    "This request does not use any authorization.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request này không dùng xác thực."
+          }
+        }
+      }
+    },
+    "This request uses the authorization of its parent folder or collection.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request này dùng xác thực của thư mục hoặc bộ sưu tập cha."
+          }
+        }
+      }
+    },
+    "Throughput": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thông lượng"
+          }
+        }
+      }
+    },
+    "Time": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian"
+          }
+        }
+      }
+    },
+    "Time (s)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian (s)"
+          }
+        }
+      }
+    },
+    "Timeline": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dòng thời gian"
+          }
+        }
+      }
+    },
+    "Timeout (ms, 0 = default)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timeout (ms, 0 = mặc định)"
+          }
+        }
+      }
+    },
+    "Token": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token"
+          }
+        }
+      }
+    },
+    "Token Secret": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token Secret"
+          }
+        }
+      }
+    },
+    "Total": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tổng"
+          }
+        }
+      }
+    },
+    "Trailers": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trailer"
+          }
+        }
+      }
+    },
+    "Type": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loại"
+          }
+        }
+      }
+    },
+    "Types": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểu"
+          }
+        }
+      }
+    },
+    "Unrecognized format. Supported: Postman Collection v2.0/v2.1, Postman Environment, OpenAPI 3.x, Swagger 2.0, cURL.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Định dạng không được hỗ trợ. Hỗ trợ: Postman Collection v2.0/v2.1, Postman Environment, OpenAPI 3.x, Swagger 2.0, cURL."
+          }
+        }
+      }
+    },
+    "Untitled Event Stream": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Event stream chưa đặt tên"
+          }
+        }
+      }
+    },
+    "Untitled GraphQL Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request GraphQL chưa đặt tên"
+          }
+        }
+      }
+    },
+    "Untitled Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request chưa đặt tên"
+          }
+        }
+      }
+    },
+    "Untitled WebSocket": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebSocket chưa đặt tên"
+          }
+        }
+      }
+    },
+    "Untitled gRPC Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request gRPC chưa đặt tên"
+          }
+        }
+      }
+    },
+    "Up to date": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã cập nhật"
+          }
+        }
+      }
+    },
+    "Use Example Message": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng message mẫu"
+          }
+        }
+      }
+    },
+    "Use Server Reflection": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng server reflection"
+          }
+        }
+      }
+    },
+    "Use a custom HTTP/HTTPS proxy": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng proxy HTTP/HTTPS tùy chỉnh"
+          }
+        }
+      }
+    },
+    "Use grpcs:// or https:// for TLS; host:port or grpc:// connects in plaintext (h2c).": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng grpcs:// hoặc https:// cho TLS; host:port hoặc grpc:// kết nối không mã hóa (h2c)."
+          }
+        }
+      }
+    },
+    "Use in Environment": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng trong môi trường"
+          }
+        }
+      }
+    },
+    "Use {{column}} in requests; values change every iteration.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng {{column}} trong request; giá trị thay đổi mỗi lần lặp."
+          }
+        }
+      }
+    },
+    "User-Agent, Accept, Content-Type and auth headers are added automatically unless set here.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "User-Agent, Accept, Content-Type và header xác thực được tự động thêm nếu không đặt ở đây."
+          }
+        }
+      }
+    },
+    "Username": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên đăng nhập"
+          }
+        }
+      }
+    },
+    "Valid": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hợp lệ"
+          }
+        }
+      }
+    },
+    "Value": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giá trị"
+          }
+        }
+      }
+    },
+    "Variables": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biến"
+          }
+        }
+      }
+    },
+    "Verify SSL certificates": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xác minh chứng chỉ SSL"
+          }
+        }
+      }
+    },
+    "Verify TLS certificates": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xác minh chứng chỉ TLS"
+          }
+        }
+      }
+    },
+    "View Documentation": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem tài liệu"
+          }
+        }
+      }
+    },
+    "View environment variables": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem biến môi trường"
+          }
+        }
+      }
+    },
+    "Virtual users": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Người dùng ảo"
+          }
+        }
+      }
+    },
+    "Waiting (TTFB)": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chờ (TTFB)"
+          }
+        }
+      }
+    },
+    "WebSocket Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request WebSocket"
+          }
+        }
+      }
+    },
+    "When off, requests follow the system proxy configuration.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khi tắt, request dùng cấu hình proxy của hệ thống."
+          }
+        }
+      }
+    },
+    "Wrap lines": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngắt dòng"
+          }
+        }
+      }
+    },
+    "Write tests in the Scripts tab using pm.test() to validate responses.": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viết test trong tab Script bằng pm.test() để kiểm tra response."
+          }
+        }
+      }
+    },
+    "default": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mặc định"
+          }
+        }
+      }
+    },
+    "gRPC Request": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request gRPC"
+          }
+        }
+      }
+    },
+    "none": {
+      "extractionState": "manual",
+      "generatesSymbol": false,
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "không"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

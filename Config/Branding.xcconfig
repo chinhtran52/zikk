@@ -1,0 +1,17 @@
+// Branding — the single place to change when white-labelling the app. See WHITELABEL.md.
+
+// Name shown in the Dock, menu bar, Finder, User-Agent and generated documentation.
+APP_NAME = Zikk
+// Reverse-DNS bundle identifier (must be unique for the App Store).
+APP_BUNDLE_ID = dev.chinhtr.zikk
+// URL scheme used for OAuth 2.0 redirect URIs (<scheme>://oauth/callback).
+APP_URL_SCHEME = zikk
+// Copyright line shown in the About panel.
+APP_COPYRIGHT = © 2026 Zikk contributors
+
+// Versioning.
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
+
+// Code signing: set your Apple Developer Team ID to sign/notarize/upload.
+DEVELOPMENT_TEAM =

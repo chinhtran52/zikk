@@ -1,0 +1,154 @@
+openapi: 3.0.3
+info:
+  title: Petstore
+  version: 1.2.0
+  description: A sample pet store.
+servers:
+  - url: https://{env}.petstore.test/v1
+    variables:
+      env:
+        default: api
+tags:
+  - name: pets
+    description: Pet operations
+security:
+  - bearerAuth: []
+paths:
+  /pets:
+    get:
+      tags: [pets]
+      summary: List pets
+      operationId: listPets
+      parameters:
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            example: 20
+        - $ref: '#/components/parameters/TraceHeader'
+      responses:
+        '200':
+          description: A list of pets
+          headers:
+            X-Total:
+              required: true
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Pet'
+    post:
+      tags: [pets]
+      summary: Create pet
+      operationId: createPet
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NewPet'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+        default:
+          description: Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /pets/{petId}:
+    parameters:
+      - name: petId
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+    get:
+      tags: [pets]
+      summary: Get pet
+      operationId: getPet
+      responses:
+        '200':
+          description: The pet
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+              example:
+                id: 3fa85f64-5717-4562-b3fc-2c963f66afa6
+                name: Rex
+                tag: dog
+    delete:
+      summary: Delete pet
+      security: []
+      responses:
+        '204':
+          description: Deleted
+  /login:
+    post:
+      summary: Login
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              required: [username]
+              properties:
+                username:
+                  type: string
+                  example: admin
+                password:
+                  type: string
+      responses:
+        '200':
+          description: OK
+components:
+  parameters:
+    TraceHeader:
+      name: X-Trace-Id
+      in: header
+      schema:
+        type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    NewPet:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+          minLength: 1
+          example: Rex
+        tag:
+          type: string
+          nullable: true
+    Pet:
+      allOf:
+        - $ref: '#/components/schemas/NewPet'
+        - type: object
+          required: [id]
+          properties:
+            id:
+              type: string
+              format: uuid
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: integer
+          minimum: 100
+        message:
+          type: string
